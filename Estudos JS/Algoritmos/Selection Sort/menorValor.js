@@ -1,14 +1,11 @@
-const listaLivros = require('./listaLivros') ; 
-
 function menorValor (Produtos, posicaoInicial) {
-    let maisBarato = posicaoInicial;
 
     for(let atual = posicaoInicial;atual < Produtos.length; atual++){
-        if (Produtos[atual].valor < Produtos[maisBarato].valor){
-            maisBarato = atual;
+        if (Produtos[atual].valor < Produtos[posicaoInicial].valor){
+            posicaoInicial = atual;
         }
     }
-    return maisBarato;
+    return posicaoInicial;
 }
 
 module.exports = menorValor;
