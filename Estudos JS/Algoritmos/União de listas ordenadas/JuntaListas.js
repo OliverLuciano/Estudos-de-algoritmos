@@ -18,7 +18,15 @@ function uniaoLista (lista1, lista2) {
             atualL2++;
         }
     }
+    while(atualL1 < lista1.length){
+        listaFinal.push(lista1[atualL1]) 
+        atualL1++;
+    }
 
+    while(atualL2 < lista2.length){
+        listaFinal.push(lista2[atualL2]);
+        atualL2++;
+    }
     return listaFinal;
 }
 
