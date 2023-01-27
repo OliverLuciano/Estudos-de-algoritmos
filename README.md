@@ -6,3 +6,5 @@ Algoritmo de ordenação por seleção (Selection sort),
 União ordenada entre duas listas ordenadas,
 Algoritmo de ordenação rapida (Quick sort),
 Algoritmo de ordenação com duas listas ordenadas (Merge Sort),
+Algoritmo de Busca Binaria
+
